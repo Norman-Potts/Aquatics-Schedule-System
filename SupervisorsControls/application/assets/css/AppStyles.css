@@ -1,0 +1,176 @@
+/* Global Styles */
+/* Styles written as one lines. */
+/* AppStyles.css Should only contain global styles used on the supervisor side. */
+body { background-color: rgb(63,72,204); color: black; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+button { font-size: 1.5em; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+input { font-size: 1.5em; font-weight: bold; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+select { font-family:"Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; }
+textarea { font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; font-weight: bold; font-size: 1.5em; }
+pre { display: block; font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans"; white-space: wrap;	margin: 1em 0;}
+.TextCenter { text-align: center; }
+.Bold { font-weight: bold; }
+.italics { font-style: italic; }
+.hidden { display: none; }	
+.vhide{ visibility: hidden; }
+#authorshipV2 { background: white; border: 5px solid black;	float: right; display: block;	padding: 0.5em;	 }		
+.FloatRight { float: right; }
+#CenterBox { background-color: rgb(153,217,234);	display: inline-block; overflow: hidden; border: 5px solid black; position: relative; width: 93%; min-height: 70vh; margin-top: 0; margin-left: 2%;	 padding-top: 2vh; padding-bottom: 2vh; padding-left: 1vw; padding-right: 1vw; }			
+#EditButton { text-align: center;	 border: 5px solid black; height: 60px; width: 60px; border-radius: 50%; padding: 3px; display: inline-block; font-size: 0.7em; margin: 0; background: cyan; }		
+#EditButton p { text-decoration: underline; }
+#EditButton:hover, #EditButton:focus { background: rgb(0,157,141); }				
+#logoutButton { margin: 0% 0% 0% 0%; padding: 3px; display:  inline-block; float: right; border-radius: 50%; border: 5px solid black; height: 60px; width: 60px; font-size: 0.7em; background: lime; }
+#logoutButton p { text-align: center; vertical-align: middle; overflow: hidden; text-decoration: underline; }
+#logoutButton:hover, #logoutButton:focus { background: green; }
+.OneEm { margin-bottom: 1em; }
+#close { color: black; background: white; float: right; display: block;	font-size: 30px; font-weight: bold; text-align: center; line-height: 1em; border: 1px solid black; padding: 0; margin: 0; position: relative;	 }
+#close:hover, #close:focus { background: red; color: black; text-decoration: none; cursor: pointer; cursor: hand;  }
+.Underline{ text-decoration: underline;	 }	
+.modal { display: block; position: fixed;  left: 0; top: 0; width: 100%;  height: 100%;  background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.6);  z-index: 1; }
+#ModalContent { z-index: 1; background-color: rgb(195,195,195); margin-top: 10%; margin-left: 10%; margin-right: 10%; margin-bottom: 10%; border: 3px solid black; overflow: hidden; display: block; padding-left: 2em;	padding-bottom: 1em; }
+.LifeguardShift { background: rgb(237,28,36); }	
+.HeadGuardShift { background: rgb(127,127,127); }	
+.InstructorShift { background: rgb(0, 162, 232); }	
+.SupervisorShift { background: rgb(218,112,214); }	
+.Lifeguard { background: rgb(237,28,36); }	
+.Headguard { background: rgb(127,127,127); }	
+.Instructor { background: rgb(0, 162, 232); }	
+.Supervisor { background: rgb(218,112,214); }			
+#SshiftID { display: none; }	
+/* End of Global Styles */		
+
+
+
+/* Sub Slip form styles */
+#SubSlipForm { background-color: rgb(195,195,195); border: 3px solid black; display: block; margin: 1em; text-align: center; padding-bottom: 2em; }	
+#SubSlipForm h2 { border-bottom: 3px solid black; background: white; padding: 0 0 0 1em; margin: 0; text-align: left; }		
+#GoToDate { cursor: pointer; cursor: hand; }	
+.green { background: Green; }
+#SelectShift { display: block; float: right; margin: 0.2em; cursor: pointer; cursor: hand; }
+.NoShiftOption { 	background: grey; color: red; }
+#SubSlipSelectDate { 	 display: inline-block;	 margin-right: 2em;	 }
+#SelectShiftsDiv { display: block; }
+#ShiftsOnDateSelect { min-height: 4em; max-height: 20em; margin-left: 2em; margin-right: 2em; background: white; border: 3px solid black; overflow-x: scroll; overflow-y: hidden; white-space: nowrap; }	
+#SubSlipFormSecondStep textarea { resize: none; }
+#ShiftCell { border: 3px solid black; color: black; margin: 1em; border-radius: 40px; padding: 1em; display: inline-block; }	
+#HandInSubslip { margin: 0.2em;	 }
+#HandInSubslipSubmit { font-size:1.5rem; cursor: pointer; cursor: hand; }	
+#HandInSubslipSubmit:hover, #HandInSubslipSubmit:focus { font-weight: bold; text-decoration: none; background: rgb(166,166,166); cursor: pointer; cursor: hand;  }	
+.InnerCellText { border: 1px solid black; overflow: hidden; text-align: left; border-radius: 15px; padding-left: 1em; padding-right: 1em; background: white; }
+.SELECTEDInnerCellText { border: 3px solid black; overflow: hidden;	text-align: left; border-radius: 15px; padding-left: 1em; padding-right: 1em;  background: grey; }
+/*End of SubSlip Form styles*/
+	
+	
+	
+	
+	
+	
+
+	
+#ShiftsUpForGrabs {	border: 3px solid black; background: white; padding: 0;  margin: 0 0 4em 0; }
+#ShiftsUpForGrabs h3 { padding: 0 0 0 1em; margin: 0; border-bottom: 3px solid black; background: rgb(195, 195, 195); text-align: left; }	
+#SubSlipCell #SshiftDate, #SshiftTime, #SshiftName { margin-right: 2em; }
+#TakeShiftButton { display: block; float: right; margin: 0.2em; cursor: pointer; cursor: hand; }	
+#SubSlipCell { border: 3px solid black; color: black; margin: 1em; border-radius: 40px; padding: 1em; display: inline-block; }
+#NoEmployeesInnerShiftsUpForGrabs { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; max-height: 70vh; min-height: 10em; }	
+#InnerShiftsUpForGrabs { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; max-height: 70vh; min-height: 10em; }
+/*End of Home Page styles*/
+
+
+
+
+
+
+
+/*Start of ManageSchedule Page Styles*/
+.Backgroundblue { background: rgb(153,217,234) }
+#CreateShiftDateBox { border: 3px solid black; background: rgb(195,195,195);	 color: black; text-align: center; }
+#ManageScheduleBottom { width: 100%; display: block; float: left; border:1px solid black; }	
+#thisEmployeesAvailability{ background: green; border: 1px solid black; }
+/*For displaying the certs on forms like update or create shift where they are coulored and have boreder.*/
+.certSelectorsRadioOrCheckBoxk { border: 2px solid black; border-radius: 5px; margin: 0.3em; padding-left: 0.7em; padding-right: 0.7em; padding-top: 0.3em; padding-bottom: 0.2em; display: inline-block; }	
+#Step3 li { list-style: none; }
+#Step4 { display: block; text-align: left; margin: 0; border-left:4px solid black; border-right: 4px solid black;	background: rgb(195,195,195); padding: 0 0 2em 0;}
+#Step4 h4 { padding-left: 2em; padding-right: 0.7em; padding-top: 0.5em; padding-bottom: 0.2em; margin:0; background: rgb(195,195,195); text-align: left;	}
+#Step4 p { margin-left: 5%; }	
+#EmployeeListBox { margin-top: 1em; margin-left: 2em; margin-right: 2em; background: white; color: black; border: 5px solid black; display: block; }
+#EmployeeListInner { overflow-x: scroll; overflow-y: hidden; white-space: nowrap; }
+#EmployeeCell ul {	margin: 0; }
+#FeedBackBox {	border-left:4px solid black; border-right: 4px solid black; border-bottom: 4px solid black;		background: rgb(195,195,195); padding: 0 0 2em 0; display: block;	text-align: center; min-width: 20%;	 }
+#FeedBackBox h3 { padding-left: 0.7em; padding-right: 0.7em; padding-top: 0.5em; padding-bottom: 0.2em; margin:0; background: rgb(195,195,195); text-align: left;	  }
+#FeedBack { margin: 0; padding: 1em; }	
+.GeneralWhiteGreyContainer { border-top: 4px solid black; border-left: 4px solid black; border-right: 4px solid black; background: rgb(195,195,195); padding:0;	}	
+.GeneralWhiteGreyContainer h3 { padding-left: 0.7em; padding-right: 0.7em; padding-top: 0.5em; padding-bottom: 0.2em; margin:0; border-bottom: 4px solid black; background: white; text-align: left; }
+.GeneralWhiteGreyInner { margin: 0; padding: 0.5em; }
+.TabRight { margin-left: 5%; }	
+#SelectedDelete { Border: 4px solid rgb(195, 195, 195); background: rgb(233,233,233); color: black; overflow: hidden; }	
+#SelectedDelete p { margin-left: 1em; }
+#DeleteShiftLink { text-decoration: underline; color: red; font-weight: bold; display: block; float: right; border: 1px solid red; padding: 1em; background: white; }
+#CancelDelete { text-decoration: underline;	 font-weight: bold; display: block; float: left; border: 1px solid black; padding: 1em; background: white; }
+/* End of ManageSchedule Styles */
+
+
+
+
+/* Table start */
+#UpdateEmployeeTable {	border: 3px solid black;  background: rgb(195,195,195); margin: 0; padding: 0 0 0 0; overflow:hidden;  width: 100%; }
+#UpdateTableHeadder { background: rgb(221,221, 221); border-bottom: 3px solid black; display:table;  width:97%; table-layout:fixed;  overflow: hidden;  padding:  0em 0.3em 0em 0.3em;  font-weight: bold; }
+#UpdateEmployeeTableinner { 
+	border: 1px solid black; 
+	background: white;	
+	overflow: auto; 
+	height: 30vh; 
+	display: block; 
+	margin:0; 
+	font-weight: bold;
+	
+}
+.UpdateEmployeeCell { 
+	background-color: rgb(168, 240, 255); 
+	color: black;
+	border: 2px solid black;
+	cursor: pointer; 
+	cursor: hand;
+	margin:  0.5em 0.2em 0.5em 0.2em; 
+	overflow: hidden; 
+	padding: 0.1em;
+	display:table;
+	width:98%;
+	white-space: nowrap; 
+}
+.upEmNameCell {	 
+	border-right: 1px solid black; 
+	overflow: hidden; 
+	width: 15%;
+	display:inline-block;  
+	float: left;	
+}		
+.upEmUserNameCell {	 
+	border-right: 1px solid black; 
+	overflow: hidden; 
+	width: 33%;
+	display:inline-block;  
+	float: left;	
+}		
+.upEmCertlastCell {
+	overflow: hidden; 
+	width: 9%;  
+	display:inline-block;  
+	float: left;
+}
+.upEmCertCell {	 
+	border-right: 1px solid black; 
+	overflow: hidden; 
+	width: 9%;  
+	display:inline-block;  
+	float: left;
+}
+.UpdateEmployeeCell:hover, .UpdateEmployeeCell:focus { background-color: rgb(0,159,193); border: 2px solid black;   }
+.UpdateEmployeeCell:active { background-color:white; border: 3px solid black;   }
+.UpHeaderCell { border: 1px solid black; }			
+.liSelectedEmployeeRow { background-color: rgb(0,159,193); border: 2px solid black; color: black;   }
+#Sort_FirstName { font-size: 1rem; }
+#Sort_LastName { font-size: 1rem; }
+/* Table End */
+
+
+

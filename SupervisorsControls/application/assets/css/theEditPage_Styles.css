@@ -1,0 +1,47 @@
+
+	
+	
+#SupervisorControls {			
+	margin: 3vw;
+	list-style-type: none;
+}	
+#SupervisorControls  li {
+	border: 1px solid navy;
+	margin-bottom: 1em;
+	margin-right: 2em;
+	padding: 1em;
+	text-align: center;
+	background-color: white;	
+	cursor: pointer;
+	cursor: hand;
+	color: navy;
+}
+#SupervisorControls  li:hover, #SupervisorControls  li:focus  {
+	background-color: rgb(190, 146, 209);
+	color: black;
+	cursor: pointer;
+	cursor: hand;
+}
+
+/* Edit page Styles */
+.GoToTodaynotHover {
+	background-color: red;
+	color: black;
+	cursor: pointer;
+	cursor: hand;
+}		
+
+#ManageShiftsNav {	
+	width: 25%;
+	display: inline-block;
+	float: left;
+	padding-left: 1em;
+}	
+#ManageEmployeesNav {
+	width: 25%;
+	display: inline-block;
+	float: left;
+	padding-left: 1em;
+}	
+/*End of edit page styles*/
+

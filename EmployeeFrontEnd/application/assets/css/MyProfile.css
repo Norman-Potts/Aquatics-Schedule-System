@@ -1,0 +1,283 @@
+#YourShftsBlock {
+	border: 5px solid black;
+	background: rgb(195,195,195);
+	padding:0;
+	
+	max-height: 80%;
+	display: block;
+	float: top;
+	margin: 1em;
+	overflow: auto;
+
+}
+#YourShftsBlock h3 {
+	padding: 0;
+	margin:0;
+	border-bottom: 5px solid black;
+	background: white;	
+}
+#YourShiftsInner {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;	
+	max-height: 70vh;		
+	min-height: 10em;	
+}
+
+#YourSubSlipsBlock {
+	border: 5px solid black;
+	background: rgb(195,195,195);
+	padding:0;
+	
+	max-height: 80%;
+	display: block;
+	float: top;
+	margin: 1em;
+	overflow: auto;
+
+}
+#YourSubSlipsBlock h3 {
+	padding: 0;
+	margin:0;
+	border-bottom: 5px solid black;
+	background: white;	
+}
+#YourSubSlipsInner {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;	
+	max-height: 70vh;		
+	min-height: 10em;	
+}
+
+
+
+
+.CellTopRight {		
+	border: 1px solid black;
+	display: block;	
+	
+}
+.ReasonView {  
+	display: block;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background:rgb(220,220,220);
+	 word-wrap: break-word;
+	 padding-left: 1em;
+	 padding-right: 1em;
+	white-space: normal;
+	height: 50%;
+	}	
+
+#UpperCell { position: relative; height: 12em; width: 14rem;  border: 1px solid black; overflow: hidden; display: block;}
+
+#LowerCell {display: block;border: 1px solid black;}
+.InnerCellText button {
+	display: block;
+	float: left;
+	font-size: 75%;	
+}
+
+
+
+
+
+
+
+#YourTakenSubSlipsBlock {
+	border: 5px solid black;
+	background: rgb(195,195,195);
+	padding:0;	
+	max-height: 80%;
+	display: block;
+	float: top;
+	margin: 1em;
+	overflow: auto;
+}
+#YourTakenSubSlipsBlock h3 {
+	padding: 0;
+	margin:0;
+	border-bottom: 5px solid black;
+	background: white;	
+}
+#YourTakenSubSlipsInner {	
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;	
+	max-height: 70vh;		
+	min-height: 10em;	
+}
+
+
+
+#YourApprovedSubSlipsBlock {
+	border: 5px solid black;
+	background: rgb(195,195,195);
+	padding:0;	
+	max-height: 80%;
+	display: block;
+	float: top;
+	margin: 1em;
+	overflow: auto;
+}
+#YourApprovedSubSlipsBlock h3 {
+	padding: 0;
+	margin:0;
+	border-bottom: 5px solid black;
+	background: white;	
+}
+#YourApprovedSubSlipsInner {	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;	
+	max-height: 70vh;		
+	min-height: 10em;	
+}
+
+
+
+
+#SlipsYouHaveSignedBlock {
+	border: 5px solid black;
+	background: rgb(195,195,195);
+	padding:0;	
+	max-height: 80%;
+	display: block;
+	float: top;
+	margin: 4em 1em 1em 1em;
+	overflow: auto;
+}
+#SlipsYouHaveSignedBlock h3 {
+	padding: 0;
+	margin:0;
+	border-bottom: 5px solid black;
+	background: white;	
+}
+#SlipsYouHaveSignedInner {	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;	
+	max-height: 70vh;		
+	min-height: 10em;	
+}
+
+
+
+#ApprovedSlipsYouHaveSignedInner {	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;	
+	max-height: 70vh;		
+	min-height: 10em;	
+}
+
+
+
+#UserAvailability {				
+	border: 5px solid black;
+	background: rgb(195,195,195);
+	padding:0;
+	
+	max-height: 80%;
+	display: block;
+	float: top;
+	margin: 1em;
+	overflow: auto;
+}
+#UserAvailability h3 {
+	padding: 0;
+	margin:0;
+	border-bottom: 5px solid black;
+	background: white;
+}
+#UserAvailabilityinner {
+	margin: 0;
+	padding: 1em;		
+}
+#UserAvailabilityinner table {
+	border-collapse: collapse;		
+	width: 100%;
+	
+}
+.leftTD {
+	width:auto;
+    text-align:right;
+    white-space: nowrap;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.rightTD {
+	width: 100%;
+	padding-left: 1em;
+}
+
+
+
+		
+				
+		
+		
+		#EditButton p {
+			text-decoration: underline;
+		}
+
+		#EditButton {
+			text-align: center;								
+			border: 5px solid black;
+			height: 100%;
+			width: auto;
+			border-radius: 50%;						
+			padding: 3px;				
+			display: inline-block;
+			float: right;
+			font-size: 0.7em;
+			margin: 0;
+			color: black;
+			background: cyan;
+
+		}
+		#EditButton:hover, #EditButton:focus {
+			background: rgb(0,157,141);
+		}
+
+	#ProfileName {			
+		font-size: 2em;
+		border: 2px solid black;
+		display: block;
+		float: top;
+		margin: 0.5em;	
+		padding-top: 0.3em;
+		padding-bottom: 0.1em;
+		padding-right: 1em;
+		padding-left: 0.3em;
+		background: rgb(195, 195, 195);
+		overflow: hidden;
+		background: white;
+	}
+	
+	
+	
+	#CRTtable {
+		float: top;
+		display: block;
+		margin: 1em;	
+		padding:0;			
+	}
+	#CRTtable table {			
+		font-size: 1rem;		
+		border-collapse: collapse;
+		background:rgb(195,195,195);
+		border: 5px solid black;
+		width: 100%;		
+	}
+	#CRTtable th {
+		border-bottom: 5px solid black;
+		background: white;
+	}
+	#CRTtable td {
+		padding: 0.3em;		
+	}
+	
+	#ProfileBox {
+		text-align: left;
+	}
+	
+	

@@ -1,0 +1,1307 @@
+/* Global Styles */
+body {
+		
+	background-color: rgb(63,72,204);			
+	color: black;
+	font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans";
+	
+}
+button {
+	font-size: 1.5em;
+	font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans";
+	
+}
+input {
+	font-size: 1.5em;
+	font-weight: bold;	
+	font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans";
+}
+select {
+	font-family:"Arial", "Helvetica", "Comic Sans MS", "Comic Sans";
+}
+textarea {
+	font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans";
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+pre {
+	display: block;
+	font-family: "Arial", "Helvetica", "Comic Sans MS", "Comic Sans";
+	white-space: wrap;
+	margin: 1em 0;
+}
+.TextCenter {
+	text-align: center;
+}	
+.MargeZero {
+	margin: 0;
+	
+}
+.paddingZero {
+	padding:0;
+}
+.bold { font-weight: bold; }
+.Bold { font-weight: bold;	 }
+.italics {
+	font-style: italic;
+}
+.hidden {
+	display: none;			
+}
+/* End of Global Styles */
+	
+#authorshipV2 {
+	background: white;
+	border: 5px solid black;		
+	float: right;
+	display: block;			
+	padding: 0;		
+}			
+#authorshipV2 p {
+	margin: 0.3em;
+	padding: 0;
+}
+
+
+.FloatRight {
+	float: right;
+}
+
+	#SubSlipCell {
+		border: 3px solid black;
+		/*background: rgb(195,195,195);*/
+		color: black;
+		margin: 1em;
+		border-radius: 40px;
+		padding: 1em;
+		display: inline-block;
+		
+	}
+	#SubSlipCell #SshiftDate, #SshiftTime, #SshiftName {
+		margin-right: 2em;
+	}
+
+	
+/*All other styles for web site */ 
+	#CenterBox {
+		background-color: rgb(153,217,234);				
+		display: inline-block;
+		overflow: hidden;					
+		border: 5px solid black;
+		position: relative;			
+		width: 93%;		
+		min-height: 80vh;		
+		margin-top: 0;
+		margin-left: 2%;						
+		padding-top: 0.5vh;
+		padding-bottom: 0.5vh;
+		padding-left: 0.5vw;
+		padding-right: 0.5vw;
+	
+	}
+/*End of all other styles for login */		
+	
+
+
+
+/* Edit page Styles */
+		#SupervisorControls {			
+			margin: 3vw;
+			list-style-type: none;
+			
+			
+		}
+		
+		#SupervisorControls  li {
+		
+			border: 1px solid navy;
+			margin-bottom: 1em;
+			margin-right: 2em;
+			padding: 1em;
+			text-align: center;
+			
+		}
+	
+		.GoToTodaynotHover {
+			background-color: red;
+			color: black;
+			cursor: pointer;
+			cursor: hand;
+		}				
+		.notHover {
+			background-color: white;
+			color: navy;
+			cursor: pointer;
+			cursor: hand;
+		}					
+		.liOVER {
+			background-color: rgb(190, 146, 209);
+			color: black;
+			cursor: pointer;
+			cursor: hand;
+		}
+		
+		#ManageShiftsNav {
+			
+			width: 25%;
+			display: inline-block;
+			float: left;
+			padding-left: 1em;
+		}
+		
+		#ManageEmployeesNav {
+			
+			width: 25%;
+			display: inline-block;
+			float: left;
+			padding-left: 1em;
+		}
+		
+/*End of edit page styles*/
+
+
+
+
+
+
+
+
+/* Create New Employee page styles */
+	#CreatenewEmployeeBOX {	
+		width: 100%;
+	}
+	
+	#CreatenewEmployeeBOX h1 {
+		text-align: left;
+		position: relative;		
+		left: 5%;
+	}
+	
+	#CreatenewEmployeeBOX form {
+		text-align: left;
+		position: relative;		
+		left: 10%;
+		width: 60%;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		float: left;
+		
+	}
+	
+	#CreateEmployeeForm input {
+		
+	}
+	
+	#CreateEmployeeForm p {
+		
+	}
+	
+	#CreateEmpButton{
+		color: black;
+		background: green;
+		border: 4px solid black; 		
+		width: 30vh;
+		height: 10vh;
+		border-radius: 15vh / 5vh;
+		font-weight: bold;
+		margin-left: 5%
+	}
+	
+	#certsDiv {
+		margin-left: 10%;
+		margin-bottom: 4%;
+	}
+	
+	#certsDiv input {
+		
+		margin-bottom: 2%;
+	}
+	
+	#CertificationError {
+		color: red;
+		display: inline;
+		
+		
+	}
+	
+	#passwordError { 
+		color: red;
+		display: inline;
+		margin:  0 0 0 1%; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/	
+		padding: 0 0 0 0; /*padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>*/
+	}
+	
+	
+	#FirstnameError {
+		color: red;
+		display: inline;
+		margin:  0 0 0 1%; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+		padding: 0 0 0 0; /*padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>*/
+	}
+	
+	#LastnameError {
+		color: red;
+		display: inline;
+		margin:  0 0 0 1%; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+		padding: 0 0 0 0; /*padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>*/
+	}
+	
+	#SuccessORfailbox {
+		position: relative;
+		left: 5%;
+		top: 20%;
+		text-align: left;
+		width: 20%;
+		margin-left: 3%;
+		display: inline-block;
+		float: left;
+		
+	}
+/*End of create new employee page styles*/
+	
+	
+	
+	/*Classess for shifts*/
+	
+	.Lifeguard { background: rgb(237,28,36); }		
+	.Headguard { background: rgb(127,127,127); }		
+	.Instructor { background: rgb(0, 162, 232); }	
+	.Supervisor { background: rgb(218,112,214); }
+	
+	
+	
+
+/*Delete employee Styles */	
+	#DeleteEmployeepage {
+	}
+
+	.DELETEEmployeeCell {
+		display: block;
+		border: 3px solid black;
+		margin: 0.5em;
+		padding: 0.5em;		
+		text-align:  left;
+	}
+	.DELETEliOVER {
+		background: white;
+		cursor: pointer;
+		cursor: hand; 
+	}
+	.DELETEnotHover {
+		background: rgb(195,195,195);
+	}
+	
+	#DELETEEmployeeListInner {		
+		direction: ltr;
+		overflow: auto;
+		height:  100vh;
+		
+	}
+	#DELETEEmployeeListInner a {
+		text-decoration: none; 
+		color: black;
+	}
+	#DELETEEmployeeList h3	{
+		text-align: center;
+		/*padding: 0.5em 0.5em 0.5em 0.5em;*/
+		height: 5vh;
+		margin: 0 0 0 0;
+		background: rgb(195,195,195);
+		border-bottom: 5px solid black;
+	}
+	
+	#DELETEEmployeeList {
+		background: white;
+		color: black;		
+		text-align: left;		
+		direction: rtl;
+		border: 5px solid black;
+		display: inline-block;
+		float: left;
+		
+	}
+	
+	/*FOR create user implementation*/
+	
+	
+	
+	
+
+	
+	
+	#DeleteForm {		
+		text-align: center;
+		display: block;
+		float: left;
+		
+		
+		margin: 0 0 10% 0;
+	}
+	
+	#DeleteForm input {
+		background: rgb(195,195,195);
+		color: black;
+		margin-bottom: 0.5em;
+	}
+	
+	/*The h1 on delete employee*/
+	#DeleteEmployeeBox h1 {
+		
+		
+	}
+	
+	#DeleteSuccessORfailbox {				
+		display: block;
+		float: left;	
+		margin: 0 0 0 0; /*TOP right Bottom left*/		
+		width: 100%;	
+		text-align: center;
+		text-decoration: underline;
+		border: 5px solid green;
+		background: white;	
+	}
+	
+	#DeleteSuccessORfailbox p {
+		margin: 0;
+		padding: 0;
+		text-decoration: underline;
+	}
+	
+	#confirmDelete p {
+		
+	}
+	
+	
+	#confirmDelete {
+		width: 300px;	
+		border:	5px solid black;
+		background: white;
+		display: block;
+		float: left;
+		margin: 0 0 0 0; /*TOP right Bottom left*/	
+		padding: 0;
+	}
+	
+	#CancelDeleteButton {
+		display: block;
+		float: left;
+		color: black;
+		background: rgb(195,195,195);
+		border: 4px solid black; 		
+		width: 15vh;
+		height: 15vh;
+		border-radius: 15vh / 15vh;
+		font-weight: bold;
+		
+		margin: 0 0 0 0; /*TOP right Bottom left*/	
+		padding: 0;
+	}
+	
+	#DeleteButton {
+		display: block;
+		float: right;
+		color: black;
+		background: red;
+		border: 4px solid black; 		
+		width: 15vh;
+		height: 15vh;
+		border-radius: 15vh / 15vh;
+		font-weight: bold;
+		
+		margin: 0 0 0 0; /*TOP right Bottom left*/	
+		padding: 0;
+	}
+
+	
+	#DeleteButton p {
+		
+	}
+	
+	#ThisEmployeezShiftsBox {		
+		
+		direction: ltr;		
+		display: block;
+		float: left;
+		padding: 0.25em;
+		margin-right: 2%;
+		margin-left: 10%;
+	}
+	
+	#ThisEmployeezShiftsList {
+		background: white;
+		color: black;
+		padding-bottom: 0.25em;
+		width: 250px;
+		direction: rtl;
+		border: 5px solid black;
+	}
+	
+	#ThisEmployeezShiftsList h4 {
+		width:  100%;
+		background: rgb(195, 195, 195);
+		border-bottom: 4px solid black;
+		margin: 0 0 0 0; 
+		padding: 0 0 0 0;
+		text-align: center;
+	}
+	
+	
+	
+	#DeleteShiftCell {
+		background: rgb(195, 195, 195);
+		border: 1px solid black;
+		margin:  0.2em 0.5em 0.2em 0.5em ; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/		
+		padding: 0.5em 0 0.5em 0;
+		text-align: left;
+	}
+	
+	#DeleteShiftCell p {
+		margin: 0 0 0 0; 
+		padding: 0 0 0 0;
+	}
+/*End of delete employee styles  */
+
+
+
+
+
+
+
+
+
+
+/* Update styles */	
+	#UpdateBox {
+		text-align: center;	
+	}	
+	#UpdateBox h1 {
+	}
+	#UpdateEmpyeeCaption {
+		background: rgb(195,195,195);
+		border-top: 3px solid black;
+		border-left:3px solid black;
+		border-right: 3px solid black;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		text-align: center;		
+	}	
+	
+	
+	
+	
+		/* Start of Update Employee Table*/
+			/*table*/
+			#UpdateEmployeeTable {
+				border: 3px solid black;			
+				margin: 0;
+				padding: 0 0 0 0;				
+				overflow:hidden;
+				width: 100%;
+				/*display: block;*/
+				background: rgb(195,195,195);
+			}
+			/*thead*/
+			#UpdateTableHeadders {
+				background: rgb(221,221, 221);
+				/*display: block;		*/
+				padding: 0em 0em 0em 0em;/* top right bottom left*/
+				margin: 0; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+				border-bottom: 3px solid black;		
+			    display:table;
+				width:100%;
+				table-layout:fixed;/* even columns width , fix width of table too*/
+			}
+			
+			/*th*/
+			.UpHeaderCell {				
+				border: 1px solid black;
+				/*width: 11%;*/
+			}			
+			/*tbody*/
+			#UpdateEmployeeTableinner {
+				border: 1px solid black;
+				background: white;					
+				overflow: auto;
+				height: 25vh;
+				display: block;
+				margin:0;
+			}			
+			/*tr inside tbody*/
+			.UpdateEmployeeCell {						
+				border: 1px solid black;
+				margin:  0.5em 0.2em 0.5em 0.2em ; /*top right  bottom left*/
+				/*display: block;*/
+				overflow: hidden;
+				padding: 0.1em;
+				 
+				display:table;
+ 				width:98%;
+				table-layout:fixed;/* even columns width , fix width of table too*/
+			}
+			/*td*/			
+			.upEmCell {
+				/*display: inline-block;*/
+				border-right: 1px solid black;
+				overflow: hidden;
+			}		
+			/*When a table row does not have mouse hover*/
+			.notHoverTable {
+				background-color: rgb(4,211,255);
+				color: black;
+				border: 2px solid black;
+			}
+			/*When a table row does have mouse hover*/
+			.liOVERTable {
+				background-color: rgb(5, 255, 12);
+				border: 2px solid black;
+				color: black;
+				cursor: pointer; 
+				cursor: hand; 
+			}					
+		/* End of Update Employee Table*/
+	
+	
+	
+	
+	#UpdateReturnError {
+		text-align: left;		
+		background: white;
+		border: 3px solid black;	
+		margin: 1em 2em 0.5em 2em;/*top right bottom left*/
+	}
+	
+	#UpdateReturnError h3 {
+		background: rgb(195,195,195);
+		border-bottom: 3px solid black;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+
+	
+	#UpdateForm {
+		text-align: center;
+		margin: 0 1em 0 1em;/*Margin: <Margin-top> || <Margin-right> || <Margin-bottom> || <Margin-left>*/						
+	}
+	
+	#btn_UpdateEmployee {
+		color: black;
+		background: green;
+		border: 4px solid black; 		
+		width: 30vh;
+		height: 10vh;
+		border-radius: 15vh / 5vh;
+		font-weight: bold;
+		
+	}	
+/* End of Update styles*/
+
+
+
+
+
+
+
+
+
+	
+	/*Sub Slip form styles*/
+	#SubSlipForm {
+		background-color: rgb(195,195,195);		
+		border: 3px solid black;				
+		display: block;				
+		margin: 1em;
+		text-align: center;
+		padding-bottom: 2em;
+	}
+	
+	#SubSlipForm h2 {
+		border-bottom: 3px solid black;
+		background: white;
+		padding: 0 0 0 1em;
+		
+		margin: 0;
+		text-align: left;					
+	}
+	#innerForm {
+		
+		
+	}
+	
+	#GoToDate {
+		cursor: pointer;
+		cursor: hand;
+	}
+	
+	.green {
+		background: Green;
+	}
+	#SelectShift {
+		display: block;
+		float: right;
+		margin: 0.2em;
+		cursor: pointer;
+		cursor: hand;
+	}
+	
+	
+	.NoShiftOption {
+		background: grey;
+		color: red;
+	}	
+	.ShiftOptionOkay{
+		
+	}
+	
+	#SubSlipSelectDate { 	
+		display: inline-block;	
+		margin-right: 2em;
+		
+	}
+	
+	#SelectShiftsDiv {		
+		display: block;	
+		
+		
+	}
+	
+	#ShiftsOnDateSelect {
+		min-height: 4em;
+		max-height: 20em;
+		margin-left: 2em;
+		margin-right: 2em;
+		background: white;
+		border: 3px solid black;
+		
+		
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;
+	}
+	#SubSlipFormSecondStep {		
+		
+		
+	}	
+	#SubSlipFormSecondStep textarea {				
+		resize: none;					
+	}
+	#ShiftCell {
+		border: 3px solid black;
+		/*background: rgb(195,195,195);*/
+		color: black;
+		margin: 1em;
+		border-radius: 40px;
+		padding: 1em;
+		display: inline-block;
+		
+	}	
+	#HandInSubslip {
+		margin: 0.2em;
+		
+		
+	}
+	#HandInSubslipSubmit {		
+		/*background: green;
+		border: 1px solid black;
+		border-radius: 15px;		
+		font-weight: bold;*/
+		font-size:1.5rem;
+		cursor: pointer;
+		cursor: hand;
+	}
+	
+	#HandInSubslipSubmit:hover,
+	#HandInSubslipSubmit:focus {		
+		font-weight: bold;
+		text-decoration: none;
+		background: rgb(166,166,166);
+		cursor: pointer;
+		cursor: hand; 
+	}
+	
+	.InnerCellText { border: 1px solid black; overflow: hidden; text-align: left; border-radius: 15px; padding-left: 1em; padding-right: 1em; background: white; }
+
+	.SELECTEDInnerCellText
+	{
+		border: 3px solid black;
+		overflow: hidden;		
+		text-align: left;
+		border-radius: 15px;
+		padding-left: 1em;
+		padding-right: 1em;
+		background: grey;
+		
+	}
+	/*End of SubSlip Form styles*/
+	
+	
+
+	.Underline {
+		text-decoration: underline;
+		
+	}
+
+
+	
+	
+	/*Chat box stlyes */
+		#ChatBox { 			
+			border: 3px solid black;						
+			padding: 0;
+			margin: 3em 0 0 0;
+			background: white;
+			
+		}		
+		#ChatBoxTite {			
+			text-align: left;					
+			background: rgb( 195, 195, 195);
+			margin: 0;
+			padding: 0 0 0 1em;
+			
+		}
+		
+		#ChatInputBox {
+			background: rgb(195,195,195);
+			border-bottom: 5px solid black;		
+			padding: 2%;
+			overflow: hidden;
+			display: block;
+			
+			
+		}
+		#ChatName {
+			border-bottom: 1px solid black;
+			width: 60%;
+			margin-bottom: 1em;
+		}
+		#ChatInputTextArea {
+		    resize: none;
+			width: 80%;				
+			display: block;
+			float: left;
+			margin-bottom: 2%;
+			overflow: hidden;
+		}
+		#PostButton {
+			border: 4px solid black;
+			background: green;
+			
+			padding: 0.5em;
+			border-radius: 15px;
+			display: block;
+			float: left;
+			cursor: pointer;
+			cursor: hand;
+		}
+		#ChatMessageBox {
+			background: white;
+			margin: 0;
+			min-height: 20vh;
+			max-height: 70vh;
+			overflow: auto;
+			padding: 1%;
+		}
+		#ChatPost {
+			border: 2px solid black;
+			margin: 1%;
+			border-radius: 15px;
+			background: rgb(195,195,195);
+			padding: 1%;
+			overflow: hidden;
+
+		}
+		#PostName {
+			border: 1px solid black;
+			display: inline-block;
+			float: left;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin-right: 1%;
+		}
+		#PostDate {
+			border: 1px solid black;
+			display: inline-block;
+			float: left;
+			padding-left: 1%;
+			padding-right: 1%;			
+			margin-left: 1%;
+			
+		}
+		#PostMessage {
+			border: 1px solid black;
+			overflow: hidden;
+			width: 90%;		
+			margin: 1em;
+			border-radius: 15px;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+			background: white;
+		}		
+	/*End of Chat box stlyes */	
+	
+		#DeletePost {
+			font-size: 1rem;
+			display: block;
+			float: right;
+			margin-right: 1em;
+			
+		}
+		
+	
+		
+		
+	/* Endof Bulliton box styles */
+/*End of Home Page styles*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start of ManageSchedule Page Styles*/
+	#ManageSchedule {		
+	}
+	.CertsString {
+		margin-left: 2em;
+	}
+	#ManageScheduleTop {
+		width: 100%;		
+		display: block;
+		float: left;				
+	}
+	#CreateShiftForm{				
+		overflow: hidden;
+		margin-bottom: 2em;
+		text-align: center;
+	}
+	#CreateShiftSubmit {
+		background: green;
+		border: 3px solid black;
+		border-radius: 10px;
+		padding: 0.5em;			
+		cursor: pointer;
+		cursor: hand;
+		display: inline;
+		
+	}
+	#SelectShiftDate {
+		
+	}
+	#CreateShiftDateBox { 
+		border: 3px solid black;
+		background: rgb(195,195,195);	
+		color: black;
+		text-align: center;				
+	}
+	#ManageScheduleBottom {
+		width: 100%;
+		display: block;
+		float: left;
+		border:1px solid black;
+	}
+	#thisEmployeesAvailability{
+		background: green;
+		border: 1px solid black;
+	}
+	#StepsOneTwoThree {		
+		display: block;		
+		overflow: hidden;		
+		text-align: center;
+		margin: 0;
+		padding-bottom: 2em;
+	}
+	#Step1 {
+		display: inline-block;
+		text-align: left;
+		margin-right: 2em;
+	}
+	#Step2 {
+		display: inline-block;
+		text-align: left;
+		margin-right: 2em;
+	}
+	#Step3 {
+		display: inline-block;
+		text-align: left;
+		
+	}
+	#Step3 div{
+		border: 2px solid black;
+		border-radius: 5px;
+		margin: 0.3em;
+		padding-left: 0.7em;
+		padding-right: 0.7em;
+		padding-top: 0.3em;
+		padding-bottom: 0.2em;
+		display: inline-block;
+	}
+	#Step3 li {
+		list-style: none;
+	}
+	#Step4 {		
+		display: block;		
+		text-align: left;		
+		margin: 0;		
+		border-left:4px solid black;
+		border-right: 4px solid black;		
+		background: rgb(195,195,195);
+		padding: 0 0 2em 0;				
+		
+	}
+	#Step4 h3 {		
+		padding-left: 0.7em;
+		padding-right: 0.7em;
+		padding-top: 0.5em;
+		padding-bottom: 0.2em;
+		margin:0;
+		background: rgb(195,195,195);
+		text-align: left;
+		
+	}
+	#Step4 p {
+		margin-left: 5%;
+	}	
+	#EmployeeListBox {
+		margin-top: 1em;
+		margin-left: 2em;
+		margin-right: 2em;
+		background: white;
+		color: black;		
+		text-align: left;		
+		direction: rtl;
+		border: 5px solid black;
+		display: block;
+	}
+
+	#EmployeeListInner {
+		direction: ltr;
+		overflow: auto;
+		max-height:  40vh;
+		min-height: 3vh;
+	}
+	#EmployeeCell {
+		display: block;
+		border: 3px solid black;
+		margin: 1em;
+		padding: 0.5em;		
+		text-align:  left;		
+		overflow: hidden;
+		border-radius: 15px;
+	}
+	#EmployeeCell ul {
+		margin: 0;
+	}
+	
+	.Backgroundblue {
+		background: rgb(153,217,234)
+	}
+	
+	.CertTableinEmployeeList {
+		border-collapse: collapse;
+	}
+	
+	.EmployeeCellRIGHT {
+		display: block;
+		float: right;
+		border:1px solid black;		
+		font-size: 1em;
+	}
+	#FeedBackBox {				
+		border-left:4px solid black;
+		border-right: 4px solid black;
+		border-bottom: 4px solid black;		
+		background: rgb(195,195,195);
+		padding: 0 0 2em 0;		
+		display: block;		
+		text-align: center;
+		min-width: 20%;
+		
+	}
+	#FeedBackBox h3 {		
+		padding-left: 0.7em;
+		padding-right: 0.7em;
+		padding-top: 0.5em;
+		padding-bottom: 0.2em;
+		margin:0;		
+		background: rgb(195,195,195);
+		text-align: left;
+		
+	}
+	#FeedBack {
+		margin: 0;
+		padding: 1em;
+		
+	}
+	
+	.GeneralWhiteGreyContainer {
+		border-top: 4px solid black;
+		border-left: 4px solid black;
+		border-right: 4px solid black;
+		background: rgb(195,195,195);
+		padding:0;		
+				
+		
+	}
+	.GeneralWhiteGreyContainer h3 {
+		padding-left: 0.7em;
+		padding-right: 0.7em;
+		padding-top: 0.5em;
+		padding-bottom: 0.2em;
+		margin:0;
+		border-bottom: 4px solid black;
+		background: white;
+		text-align: left;
+	}
+	.GeneralWhiteGreyInner {
+		margin: 0;
+		padding: 0.5em;
+	}
+
+	
+	.TabRight {
+		margin-left: 5%;
+	}
+		
+	
+	#SelectedDelete {
+		Border: 4px solid rgb(195, 195, 195);
+		background: rgb(233,233,233);
+		color: black;
+		overflow: hidden;
+	}
+	
+	#SelectedDelete p {
+		margin-left: 1em;
+	}
+	
+	
+	#DeleteShiftLink {
+		text-decoration: underline;
+		color: red;
+		font-weight: bold;
+		display: block;
+		float: right;		
+		border: 1px solid red;
+		padding: 1em;
+		background: white;
+	}
+	
+	#CancelDelete {
+		text-decoration: underline;		
+		font-weight: bold;
+		display: block;
+		float: left;
+		
+		border: 1px solid black;
+		padding: 1em;
+		background: white;
+	}
+	.modal { display: block; position: fixed;  left: 0; top: 0; width: 100%;  height: 100%;  background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.6);  z-index: 1; }
+	
+	#ModalContent {
+		background-color: rgb(195,195,195);
+		margin-top: 10%;	
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 10%;
+		width: 50vw;
+		border: 3px solid black;
+		overflow: hidden;
+		display: block;
+		padding: 2em;
+		
+	}
+/* End of ManageSchedule Styles */
+
+
+
+
+
+
+
+
+
+
+/* Start of Approve sub slip page */
+	/*Reject modal styles.*/
+	#RejectSubSlipModal {
+		display: none; 
+		position: fixed; 		
+		left: 0;
+		top: 0;
+		width: 100%; 
+		height: 100%; 		
+		background-color: rgb(0,0,0); 
+		background-color: rgba(0,0,0,0.6); 
+	}
+	#RSModalcontent {
+		background-color: rgb(195,195,195);
+		margin: 20% auto;	
+		border: 3px solid black;
+		width: 50%; 
+		padding: 0;
+		
+	}
+	#RSModalcontent textarea{
+		margin: 1em;
+		height: 10%;
+		width: 40%;
+		resize: none;
+	}
+	#RSModalcontent h3 {
+		margin: 1em;
+	}
+	
+	#RSModalcontent input{
+		margin: 1em;
+		cursor: pointer;
+		cursor: hand; 
+	}
+#close { color: black; background: white; float: right; display: block;; font-weight: bold; text-align: center; line-height: 1em; border: 1px solid black; padding: 0; margin: 0; position: relative;	 }
+#close:hover, #close:focus { background: red; color: black; text-decoration: none; cursor: pointer; cursor: hand;  }
+
+	/*End of Reject modal styles*/
+	
+	
+	#ApproveSubslipID {
+		display: none;
+	}
+	#ApproveOwnerID, #ApproveShiftID, #ApproveTakerID{
+		display: none;
+	}
+	#SshiftID {
+		display: none;
+	}
+	#BoxOfAvialiableSubslips {
+		border: 3px solid black;
+		width: 60%;
+		margin-left: 20%;
+		border: 5px solid black;
+		background: rgb(195,195,195);
+		padding: 0;
+		display: block;
+		float: left;
+	
+	}
+	
+	#BoxOfAvialiableSubslips h3 {
+		border-bottom: 5px solid black;
+		background: rgb(195,195,195);
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	#InnerBoxOfAvialiableSubslips {
+		background: white;
+		height: 500px;
+		overflow: auto;
+	}
+	
+	#SubmittedSubSlip {
+		border: 3px solid black;
+		background: rgb(195,195,195);
+		color: black;
+		margin: 1em;
+		border-radius: 40px;
+		padding: 1em;
+	}
+	.SSrejectButton {
+		cursor: pointer;
+		cursor: hand;
+	}
+	.SSacceptButton {
+		cursor: pointer;
+		cursor: hand;
+	}
+	
+/* End of Approve sub slip page */
+
+
+/*Start of Availability manager styles */
+	#AvailabilityForm {
+		border: 5px solid black;
+		background: white;
+		padding:0;		
+		display: block;
+		float: left;	
+		overflow: hidden;
+		width: 75%;
+		margin-left: 2em;
+		
+	}
+	#innerAvailabilityForm {
+		display: none;
+	}
+	#SelectedEmployeeBox {				
+		padding: 0.3em 0.0em 0.2em 0.7em;/*top-right-bottom-left*/
+		color: black;
+		display: inline-block;
+		float: left;
+		width: 100%;
+		border-bottom: 5px solid black;
+		margin:0;
+		background: rgb(195,195,195);
+		
+	}
+	#EmployeeCertifications {
+		display: inline-block;
+		float: left;
+		
+	}
+	#EmployeeCertifications .cert {
+		padding-left: 1rem
+	}
+	.AvailabilityDay {		
+		color: black;
+		margin: 0.7em;
+		padding: 0.2em;
+		display: inline-block;
+		float: left;				
+		border: 3px solid black;
+	}
+	.AvailabilityDay h3 {
+		border-bottom: 3px solid black;
+		margin: 0 0 0.5em 0; /*top-right-bottom-left*/
+	}
+	#AvailabilityNotes {
+		display:  inline-block;
+		float: left;
+	}
+	#Availability textarea {
+		resize: none;
+	}
+	#AvailabilityNotes h3{
+	
+	}
+	
+	#SumitAvailiability{
+		color: black;
+		background: green;
+		border: 4px solid black; 		
+		width: 30vh;
+		height: 10vh;
+		border-radius: 15vh / 5vh;
+		font-weight: bold;
+		display: block;
+		float: right;
+	}
+	.HideEmployeeID {
+		display: none;
+	}
+	.block {
+		display: block;
+	}
+/*End of availability crud styles*/

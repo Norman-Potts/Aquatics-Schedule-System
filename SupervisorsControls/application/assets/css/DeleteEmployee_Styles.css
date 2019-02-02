@@ -1,0 +1,96 @@
+/*Delete employee Styles */	
+#DeleteEmployeepage {
+	text-align: center;
+}	
+#DeleteForm {		
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 2em 0 0 0;/*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+	padding: 0 3em 0 0;				
+}
+#DeleteForm input {
+	background: rgb(195,195,195);
+	color: black;
+}
+#VerticalCertContainer {
+	display:block;
+	float: left;
+}	
+#ShiftsThisEmployeeHas {
+	margin: 5em 0 0 0;/*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+	border: 4px solid black;
+	width: 25%;
+	display: block;
+	float: left;
+}	
+#ShiftsThisEmployeeHas h3 {
+	border-bottom: 4px solid black;
+	display: block;
+	background: rgb(195,195,195);
+	padding: 0;
+	margin: 0;
+}
+#WhiteInner {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: white;
+	min-height: 10vh;
+	max-height: 60vh;
+	padding-bottom: 1em;
+}	
+.DeleteShift {
+	margin: 0.7em 0.7em 0 0.7em;/*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+	display: block;
+	border: 3px solid black;
+	border-radius: 5px;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 1em;	
+}
+#AreYouSureEmployeeDelete {
+	border: 4px solid black;
+	background: white;
+	display: block; 
+	float: left;
+	border-radius: 20px;
+	width: 30%;
+	margin: 5em 0 0 1em;/*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+	text-align: left;
+	padding: 2em;
+	font-weight: bold;	
+}	
+#btn_delete {
+	background: red;
+	border: 4px solid black;
+	font-weight: bold;		
+	border-radius: 15px;
+	cursor: pointer;
+	cursor: hand; 
+}
+#btn_delete:hover,
+#btn_delete:focus {
+	background: rgb(166, 13, 20);
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand; 
+}	
+#btn_cancel {
+	background: rgb(195, 195, 195);
+	border: 4px solid black;
+	font-weight: bold;		
+	border-radius: 15px;
+	float: right;
+	cursor: pointer;
+	cursor: hand;
+}
+#btn_cancel:hover,
+#btn_cancel:focus {
+	background: rgb(120, 120, 120);
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand; 
+}	
+/*End of delete employee styles  */

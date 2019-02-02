@@ -1,0 +1,228 @@
+		#NavBarParent {
+			position: relative; /* This allows notfication box inner to expand outside of navigation bar.*/
+			top: 0%;
+			left: 0%;			
+		}
+		
+		#NavigationBar {
+			border-radius: 25px;
+			background-color: Red;
+			width: 99%;
+			height: 150px;
+			border: 5px solid black;			
+			text-align: left;												
+			display: block;
+			float: left;			
+			overflow: hidden;
+			padding: 0;			
+		}		
+		
+		
+		
+		#NavigationBar .redButtons {
+			float: left;			
+			color: black;
+			text-align: center;
+			font-size: 1em;
+			padding: 0.5%;
+			font-weight: bold;
+			display: inline-block;
+			height: 100%;
+			margin:0;
+			width: 8%;
+			overflow:hidden;
+		}		
+		
+		#NavigationBar .redButtons:hover,
+			#NavigationBar .redButtons:focus {
+				background: rgb(154, 12, 19);
+				cursor: pointer;
+				cursor: hand;	
+			}
+		
+		
+		
+		.NavTitleMyProfile {
+			text-decoration: underline;
+			display: block;
+		}
+		.NavNameBox {
+			display: block;
+		}
+				
+		
+	.NavNotification {
+		display: block;
+	}
+	.NavNotHover {
+		background: red;	
+	}	
+	.NavOVER {
+		background: rgb(154, 12, 19);
+		cursor: pointer;
+		cursor: hand;	
+	}
+		
+		#homeButton p {			
+			text-decoration: underline;		
+		}		
+		#Schedulebutton p {
+			text-decoration: underline;
+			height: 100%;
+		}
+		#Schedulebutton {								
+			border-left: 5px solid black;
+		}		
+		#AvailableShiftsbutton {			
+			border-left: 5px solid black;			
+		}		
+				
+		#MakeASubSlipbutton {									
+			border-left: 5px solid black;									
+		}						
+									
+		#MyProfilebutton {
+			text-align: left;								
+			border-left: 5px solid black;
+			border-right: 5px solid black;			
+			overflow: hidden;			
+		}
+		#MyProfilebutton p {
+			display:  block;
+			float: left;
+			margin: 0;
+			height: 100%;			
+		}
+		
+		#MinMaxButtons {
+			font-size: 1rem;		
+			display: inline-block;
+			border: 3px solid black;
+		
+			border-radius: 10px;
+			padding-left: 0.5em;
+			padding-right: 0.5em;
+			text-decoration: underline;
+			background: rgb(255,255,255);		
+		}
+	
+	#NotificationBOX {
+		width: 25%;		
+		border: 5px solid black;
+		background: rgb(195,195,195);
+		padding: 0;
+		
+		display: inline-block;			
+		margin: 0;		
+		position: absolute;
+		z-index: 1;		
+	}	
+	#NotificationBOX h3 {		
+		padding: 0.5em;
+		margin:0;		
+		background: white;
+		cursor: pointer;
+		cursor: hand; 
+	}			
+	#NotificationBOX h3:hover, #NotificationBOX h3:focus {
+		background: rgb(195,195,195);
+	}
+	#NotificationBOXInner {
+		border-top: 5px solid black;
+		margin: 0;		
+		max-height: 70vh;
+		min-height: 1em;
+		background: rgb(190,190,190);
+		overflow: auto;				
+		z-index: 1;
+	}
+	
+		
+
+	
+	.greyNOT_hover {
+		background: rgb(255,255,255);
+	}
+	
+	.grey_hover {
+		background: rgb(195,195,195);
+	}
+
+	
+	
+	.OldNotification {
+		background: rgb(190, 190, 190);
+		float: none;
+		display: block;
+	}
+	.NewNotification {
+		background: white;
+		float: none;
+		display: block;
+	}
+	
+	#notificationCell {
+		
+		border: 1px solid black;
+		padding-left: 0.5em;
+		padding-top: 0.5em;
+		padding-right: 1em;
+		margin: 0.5em;
+		font-size: 75%;
+	}
+	#notificationCell p {
+		margin: 0;
+		padding-left: 0;
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 1em;
+	}
+	#notificationCell pre {				
+		margin: 0;
+		padding: 0;
+		bottom: 0;
+		left: 0;
+		white-space: normal;
+	}
+	#LineBox {
+		border-bottom: 1px solid black;
+		display: block;
+		margin: 0.5em;
+		padding: 0;
+		
+	}
+	#imgForm {
+		padding: 1em;	
+	}
+	
+		
+	#logoutButton  {
+		margin: 0% 0% 0% 0%; /* Margin: <Margin-top> || <Margin-right> || <Margin-bottom> || <Margin-left> */
+		padding: 3px;				
+		display:  block;		
+		float: right;			
+		border-radius: 50%;		
+		border: 5px solid black;							
+		height: 60px;
+		width: 60px;
+		font-size: 0.7em;
+		color: black;	
+		background: lime;
+	}
+	
+	#logoutButton:hover, #logoutButton:focus {
+		background: green;
+	}
+	
+	
+	#logoutButton p {
+		font-size: 1.5em;
+		text-align: center;
+		vertical-align: middle;
+		overflow: hidden;
+		text-decoration: underline;
+	}		
+
+
+	
+			

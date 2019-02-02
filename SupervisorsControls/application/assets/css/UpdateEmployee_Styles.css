@@ -1,0 +1,38 @@
+
+/* Update styles */	
+/*
+padding: 0em 0em 0em 0em; top right bottom left 
+*/
+#UpdateBox { text-align: center; }	
+	
+#UpdateEmpyeeCaption { background: rgb(195,195,195); border-top: 3px solid black; border-left:3px solid black; border-right: 3px solid black; padding: 0 0 0 0; margin: 0 0 0 0; text-align: center; }		
+
+
+
+
+
+
+
+
+/* Form start */
+#UpdateReturnError { text-align: left; background: white; float: left; display: block; border: 3px solid black; width: 60%; margin: 1em 0em 0.5em 10%; }	
+#UpdateReturnError h3 { background: rgb(195,195,195); border-bottom: 3px solid black; padding: 0; margin: 0; text-align: center; }
+#UpdateReturnError p { min-height: 2em; padding-left: 1em; padding-right: 0.5em; }
+.UpperHalf { display: block; float: left; width: 95%; }
+#UpdateEmployeeDataHalf { padding-left: 4%; display: block; float:left; }
+#UpdateEmployeeCertsHalf { margin-left: 4%; display: block; float:left; }
+.UpdateEmployeeBottomHalf { display: block; float: left; width: 95%; margin-top: 5%; margin-bottom: 5%; }
+#UpdateForm { text-align: left; margin: 2em 1em 1em 1em; }
+#UpdateForm h1 { padding-left: 20%; }
+#btn_UpdateEmployee { color: grey; cursor: hand; cursor:pointer; font-weight: bold;   display: block; margin: auto; }	
+
+.UpdateErrorFeedbackBlock { 
+	display: inline-block;	 
+	padding: 0.25em;
+	color: red; 
+}
+
+/* Form End */
+
+
+/* End of Update styles*/

@@ -1,0 +1,58 @@
+/*Start of Availability manager styles */
+#AvailabilityCRUDPage {
+	text-align: center;
+}
+.AV_Booxes {
+	display: block;
+	border: 3px solid black;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}	
+.AV_Booxes h4{
+	border-bottom: 5px solid black;	
+	border-bottom: 5px solid black;	
+	background: rgb(195,195,195);
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+	text-align: left;
+}
+.AV_Booxes textarea {
+	width: 95%;
+	margin: 1em;
+	font-size: 1rem;
+	background: white;
+	background:	rgb(225,225,225);
+}	
+#AvailabilityEditorContainer {
+	margin-top: 4em;
+	background: white;
+	border: 5px solid black;	
+	padding-bottom:3em;
+}	
+#AvailabilityEditorContainer h3 {		
+	border-bottom: 5px solid black;	
+	background: rgb(127,127,127);
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom:2em;
+	padding-left: 0.5em;
+	text-align: left;
+}	
+.btn_UpdateEmployeeColorActive {
+	background: rgb(34,177,76);
+}	
+.btn_UpdateEmployeeNotActive {
+	background:rgb(190,190,190);
+}	
+#btn_saveAvailability {	
+	padding: 1em;
+	border-radius: 50%/50%;
+}
+.HideEmployeeID {
+	display: none;
+}	
+/*End of availability crud styles*/

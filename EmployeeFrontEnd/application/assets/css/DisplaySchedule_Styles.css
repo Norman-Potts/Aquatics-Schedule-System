@@ -1,0 +1,101 @@
+	.FontDouble { font-size: 2rem; text-decoration: none; }
+
+	/*	The Schedule Page Styles  */	
+	#SchedulePage { text-align: center; }
+		
+	#scheduleHint p { margin: 0;}
+	
+	#SchedulePageUpperRow {  margin: 0;  padding: 0;  overflow: hidden; display: block;  }
+	
+	#GoToToday	{  font-size: 1rem;  display: block;  margin: 0;  position: absolute;  left: 10%;  cursor: pointer;  cursor: hand;  }
+	
+	#SelectDate { width: 30%; margin: 0; overflow: hidden; position: relative; left: 25%; }
+	
+	#SelectScheduleDate { margin: 0; padding: 0; text-align: center;  }
+	
+	#SchedulePageBottomRow { margin: 0; padding: 0%; overflow: hidden; display: block; float: bottom; text-align: center; }
+			
+	#GoBackADay { font-size: 1rem; display: inline-block; float: bottom; margin: 0; cursor: pointer; cursor: hand; }	
+	#GoBackADay img { display: block; float: left; cursor: pointer; cursor: hand; }	
+	#GoBackADay p { display: block; float: left; color: blue; text-decoration: none; }				
+	
+	
+	#GoForwardADay { font-size: 1rem; margin: 0; display: inline-block; float: bottom; cursor: pointer; cursor: hand; }
+	#GoForwardADay p { display: block; float: left; color: blue; text-decoration: none;	 }	
+	#GoForwardADay img { display: block; float: left; cursor: pointer; cursor: hand; }
+	
+	#DateBox { margin-left: 1em; margin-right: 1em; border: 3px solid black; background: rgb(195,195,195);	 color: black;  margin: 0%; padding-right: 1em; padding-left: 1em; text-align: center; font-size: 1.5em; display: inline-block; float: bottom; }
+	#DateBox p { padding: 0.5em 0.5em 0.5em 0.5em; margin: 0; 	}
+	
+	/*	End The Schedule Page Styles 	*/
+
+	
+	
+	/* Schedule specific styles */		
+	#TheScheduleDisplay { font-size: 50%;   max-height: 75vh; padding: 0; display: block;	 border: 3px solid black; text-align: left; position: relative; overflow-y: auto; overflow-x: hidden; white-space: nowrap; background: rgb(239,228,176); }	
+
+	#CornerStone { border: 1px solid black; display: block; float: top;	padding-top: 2em; background: rgb(195,195,195); }
+
+	#timeView {	 display: block; float: top; }
+	
+	.timetextSmall { font-size: 0.7em; font-weight: bold; }
+	
+	#rightSideOfSchedulething {	  width: 89%; padding: 0; margin: 0; border: 1px solid black; display: inline-block;	 float: left; overflow-x: scroll; padding-bottom: 1em; }	
+	
+	#nameColumn { display: inline-block; border: 1px solid black; overflow: hidden; width: 10%; float: left; }
+	
+	#theShiftsBlock { padding: 0; margin: 0; display: block; }
+	
+	.Shiftrow { display: block; float: top;	 }		
+	
+	.timeblock { border: 1px solid black; display: inline-block; width: 4em; padding-left: 0; height: 2em; background: rgb(195,195,195); }
+	
+	.EmptyBlock { display: inline-block; width: 4em; padding-left: 0; padding-top: 2em; 		
+		border-top: 1px solid rgb(190,190,190);	 border-bottom: 1px solid rgb(190,190,190);	 border-left: 1px dotted rgb(190,190,190); border-right: 1px dotted rgb(190,190,190); }
+		
+	.EmptyWholeBlock { display: inline-block; width: 4em; padding-left: 0;	 padding-top: 2em;		
+		border-top: 1px solid rgb(190,190,190);	border-bottom: 1px solid rgb(190,190,190); border-right: 1px dotted rgb(190,190,190); border-left: 1px solid rgb(80,80,80);	}
+	
+	/*original rgb(239,228,176)*/
+	.emptyShadeNight { background: rgb(229, 212, 128); }    /* 9pm to 4am  */
+	.emptyShadeMorning { background: rgb(233, 219, 149); }    /* 4am to 11pm */
+	.emptyShadeBrunch { background: rgb(239,228,176); }    /* 8am to 11:30pm */
+	.emptyShadeLunch { background: rgb(251, 248, 234); }    /* 11pm to 1pm */
+	.emptyShadeAfternoon { background: rgb(239,228,176);}   /* 1pm to 6pm  */
+    .emptyShadeEvening { background: rgb(233, 219, 149);}   /* 6pm to 9pm  */
+	
+	
+	
+	
+	
+	.StartofShiftBlock { border-top: 1px solid black; border-left: 1px solid black; border-bottom: 1px solid black;	 border-right: 1px dotted rgb(190,190,190); border-top-left-radius: 1em; border-bottom-left-radius: 1em;	
+						display: inline-block;	 text-align: center; width: 4em; padding-top: 2em; position: relative; 	}
+						
+	.ShiftInfoButton { display: block; position: absolute; top: 0; right: 0; font-size: 1em; margin: 0; padding: 0; }
+	
+	.EndofShiftBlock { display: inline-block; border-top: 1px solid black; border-bottom: 1px solid black; border-right: 1px solid black; border-top-right-radius: 1em;
+						border-bottom-right-radius: 1em; padding-left: 1px;	 width: 4em; padding-top: 2em;	 }
+		
+	.MiddleofShiftBlock { display: inline-block; border-top: 1px solid black; border-bottom: 1px solid black; border-right: 1px dotted rgb(190,190,190); padding-left: 0; padding-left: 1px;	width: 4em; padding-top: 2em;	}
+	
+	.nameblock { border: 1px solid black; display: block; float: top; padding-top: 2em; background: rgb(195,195,195); overflow: hidden;		 }	
+	
+	.nametext { font-weight: bold; margin-left: 1em;}
+	
+	.SchInnerCellText  { text-align: center; padding-left: 1em; padding-right: 1em;		}	
+	
+	.LightPurple { background: rgb(185,138,255); }		
+				
+	.NoShiftTD { border-bottom: 1px dashed rgb(195,195,195); border-top: 1px dashed rgb(195,195,195); }	
+				
+	/* End of Schedule specific styles */
+
+	#ModalContentShiftInfo {
+		border-radius: 40px; z-index: 1; margin-top: 10%;	
+		margin-left: 10%; margin-right: 10%; margin-bottom: 10%;
+		border: 3px solid black; overflow: hidden; display: block;	
+		padding: 1em;		
+	}
+	#ModalContentShiftInfo button {
+		font-size: 1rem;
+	}

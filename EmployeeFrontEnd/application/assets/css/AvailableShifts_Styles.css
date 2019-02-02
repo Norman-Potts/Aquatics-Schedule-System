@@ -1,0 +1,36 @@
+	#AvailableShifts {
+	}
+	#ShiftsUpForGrabs {						
+		border: 3px solid black;
+		background: white;
+		padding: 0;				
+		margin: 0 0 4em 0;		
+	}
+	#ShiftsUpForGrabs h3 {		
+		padding: 0 0 0 1em;
+		margin: 0;
+		border-bottom: 3px solid black;
+		background: rgb(195, 195, 195);
+		text-align: left;
+	}
+	#NoEmployeesInnerShiftsUpForGrabs {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;	
+		max-height: 70vh;		
+		min-height: 10em;
+	}
+	#InnerShiftsUpForGrabs {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		white-space: nowrap;	
+		max-height: 70vh;		
+		min-height: 10em;
+	}	
+	#TakeShiftButton	{
+		display: block;
+		float: right;
+		margin: 0.2em;
+		cursor: pointer;
+		cursor: hand;
+	}

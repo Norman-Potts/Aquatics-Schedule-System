@@ -1,0 +1,120 @@
+#Step1 {
+	display: inline-block;
+	text-align: left;
+	margin-right: 4em;
+}
+#Step2 {
+	display: inline-block;
+	text-align: left;
+	margin-right: 2em;
+}	
+#Step3 {
+	display: inline-block;
+	text-align: left;	
+}	
+#Step3 div{
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 0.3em;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	padding-top: 0.3em;
+	padding-bottom: 0.2em;
+	display: inline-block;
+}
+#StepsOneTwoThree {		
+	display: block;		
+	overflow: hidden;		
+	text-align: left;
+	margin: 0;
+	padding-left: 1em;
+	padding-bottom: 2em;
+}
+.CertTableinEmployeeList {	
+}
+.EmployeeCellRIGHT {
+	display: block;
+	float: right;
+	width: 40%;
+	border:1px solid black;		
+	font-size: 1em;	
+}				
+.EmployeeCellLEFT {
+	display: block;
+	width: 50%;
+	float: left;
+	text-align: left;
+	overflow: auto;
+	white-space: normal;
+	border: 1px solid black;
+	height: 90%;
+}
+.EmployeeCellLEFT h2 {
+	margin: 0;
+}
+.EmployeeCellLEFT p {
+	margin: 0;		
+}
+#ManageScheduleTop {
+	width: 100%;		
+	display: block;
+	float: left;				
+}
+#CreateShiftForm{				
+	overflow: hidden;
+	margin-bottom: 2em;
+	text-align: center;
+}
+#CreateShiftSubmit {	
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 0.5em;			
+	display: inline;	
+}
+.EnabledCreateShiftSubmit {
+	background: green;
+	cursor: pointer;
+	cursor: hand;
+}
+.DisabledCreateShiftSubmit {
+	background: rgb(190, 190, 190);
+}
+#ManageSchedule {
+		
+}
+#EmployeeCell {
+	display: inline-block;
+	border: 3px solid black;
+	margin: 1em;
+	font-size: 0.75rem;
+	padding: 0.5em;		
+	text-align:  left;		
+	overflow: hidden;
+	border-radius: 15px;		
+	color: black;	
+	height: 15em;
+}		
+#EmployeeCell button {
+	float: right;
+	display: block;		
+}
+.SelectedCell {
+	background-color: grey;
+}
+.End {
+	margin-left: 1em;
+}		
+#deleteShiftbutt {		
+	float: right;
+	display: block;			
+	font-weight: bold;		
+	text-align: center;			
+	margin-right: 2em;
+	position: relative;	
+}
+#ModalContentShiftInfo {
+	border-radius: 40px; z-index: 1; margin-top: 10%;	
+	margin-left: 10%; margin-right: 10%; margin-bottom: 10%;
+	border: 3px solid black; overflow: hidden; display: block;	
+	padding: 1em;		
+}

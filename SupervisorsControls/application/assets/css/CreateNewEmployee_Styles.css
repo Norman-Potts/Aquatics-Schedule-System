@@ -1,0 +1,44 @@
+
+/* Create New Employee page styles */
+#CreatenewEmployeeBOX {	
+	width: 100%;
+	text-align: center;
+}
+#CreatenewEmployeeBOX form {
+	text-align: center;		
+	margin: auto;
+	padding: 0;
+	display: inline-block;		
+	padding-bottom: 10vh;
+}	
+#CreateEmpButton {	
+		
+}	
+#CertificationError {
+	color: red;
+	display: inline;			
+}	
+#passwordError { 
+	color: red;
+	display: inline;
+	margin:  0 0 0 1%; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/	
+	padding: 0 0 0 0; /*padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>*/
+}			
+#FirstnameError {
+	color: red;
+	display: inline;
+	margin:  0 0 0 1%; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+	padding: 0 0 0 0; /*padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>*/
+}		
+#LastnameError {
+	color: red;
+	display: inline;
+	margin:  0 0 0 1%; /*margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>*/
+	padding: 0 0 0 0; /*padding: <padding-top> || <padding-right> || <padding-bottom> || <padding-left>*/
+}		
+#SuccessORfailbox {	
+	text-align: left;
+	width: 20%;	
+	display: inline-block;
+}
+/*End of create new employee page styles*/
